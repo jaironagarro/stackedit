@@ -91,7 +91,19 @@ Each test needs to have a format and to be in its own file named to be recognize
 	/**/
 	Space for the second script, the one where te postman tests are being executed.
 
+Example with variables:
+
+    "Validate customMapping value is correct"  
+	/**/  
+	siebelCode = "Siebel code to be expected on the custom mapping"  
+	/**/  
+	var siebelCode = '$siebelCode';  
+	pm.environment.set('qa_siebel_code', siebelCode);  
+	/**/  
+	pm.test("Validate customMapping value is correct", () => {  
+		pm.expect(jsonData.customMapping).to.eql(pm.environment.get('qa_siebel_code'));  
+	});
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyMDAwNDg5MSw4MzEzNTY2ODJdfQ==
+eyJoaXN0b3J5IjpbMTIwNTQzNjc1OSw4MzEzNTY2ODJdfQ==
 -->
