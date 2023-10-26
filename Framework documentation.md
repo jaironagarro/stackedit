@@ -106,7 +106,7 @@ Example with variables:
 The tests to be used for an specific postman test generation should be in the "./tests" folder under resources. Any other kind of test could be saved in another folder to be used when needed but only those in the tests folder will be considered.
 
 ## Usage
-Under
+Under the "./clrs" folder within resources should be one CLR file for each postman test to be created with the name of the postman test to be generated, this could be for instance the name of the 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODk3MDU1ODQsODMxMzU2NjgyXX0=
+eyJoaXN0b3J5IjpbLTE3MTgyNzYxMTQsODMxMzU2NjgyXX0=
 -->
