@@ -112,7 +112,9 @@ Next, the user should select transformations and tests that are going into their
 
 Finally the user should run the MainTest file to be prompted about any variable that is needed for the program to finish.
 
-Once the program has finished, in the "./classes/out" folder under target in the root project folder should contain a folder for each CLR that was input to the postman test generation. Each folder should contain  two files that has the name of the CLR and a trailing "-pre" and "-post". The "pre" file is the one which contents should go into the Pre-request Script tab of the postman request and the "test" file contents should go into the Tests tab of the postman request.
+Once the program has finished, in the "./classes/out" folder under target in the root project folder should be a folder for each CLR that was input to the postman test generation. Each folder should contain  two files that has the name of the CLR and a trailing "-pre" and "-post". The "pre" file is the one which contents should go into the Pre-request Script tab of the postman request and the "test" file contents should go into the Tests tab of the postman request.
+
+Remember that in order to function properly the Body tab in the postman test should be on 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTI3NDYzNiw4MzEzNTY2ODJdfQ==
+eyJoaXN0b3J5IjpbLTQ4NTM1ODEzOSw4MzEzNTY2ODJdfQ==
 -->
