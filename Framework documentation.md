@@ -6,10 +6,10 @@
     1. [Base Script](#test-abstractions)
     2. [Base Test](#base-test)
     3. [Variables](#variables)
-    4. [Transformation](#trans)
-    5. [Test](#test-abstractions)
-2. [Usage](#test-abstractions)
-3. [Troubleshooting](#test-abstractions)
+    4. [Transformation](#transformation)
+    5. [Test](#test)
+2. [Usage](#usage)
+3. [Troubleshooting](#troubleshooting)
  
 ## Test abstractions
 ### Base Script
@@ -121,5 +121,5 @@ With this consideration and the files in their respective tabs for the postman r
 
 ## Troubleshooting
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2ODUxMDU5Nyw4MzEzNTY2ODJdfQ==
+eyJoaXN0b3J5IjpbMzUwNTkxODIzLDgzMTM1NjY4Ml19
 -->
