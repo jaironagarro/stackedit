@@ -103,7 +103,10 @@ Example with variables:
 	pm.test("Validate customMapping value is correct", () => {  
 		pm.expect(jsonData.customMapping).to.eql(pm.environment.get('qa_siebel_code'));  
 	});
+The tests to be used for an specific postman test generation should be in the "./tests" folder under resources. Any other kind of test could be saved in another folder to be used when needed but only those in the tests folder will be considered.
 
+## Usage
+Under
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwNTQzNjc1OSw4MzEzNTY2ODJdfQ==
+eyJoaXN0b3J5IjpbLTEzODk3MDU1ODQsODMxMzU2NjgyXX0=
 -->
