@@ -90,6 +90,8 @@ Each test needs to have a format and to be in its own file named to be recognize
 	Space for the first script, the one to set everything up
 	/**/
 	Space for the second script, the one where te postman tests are being executed.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTg3ODQwNjQ5LDgzMTM1NjY4Ml19
+eyJoaXN0b3J5IjpbLTMyMDAwNDg5MSw4MzEzNTY2ODJdfQ==
 -->
