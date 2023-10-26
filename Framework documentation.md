@@ -77,6 +77,8 @@ Example with variables:
 	}
 
 The transformations to be used for an specific test generation should be in the "./transformations" folder under resources. Any other kind of transformation could be saved in another folder to be used when needed but only those in the transformations folder will be considered.
+
+## Test
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODMxMzU2NjgyXX0=
+eyJoaXN0b3J5IjpbLTM5MTk0MjE0OCw4MzEzNTY2ODJdfQ==
 -->
