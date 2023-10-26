@@ -114,7 +114,10 @@ Finally the user should run the MainTest file to be prompted about any variable 
 
 Once the program has finished, in the "./classes/out" folder under target in the root project folder should be a folder for each CLR that was input to the postman test generation. Each folder should contain  two files that has the name of the CLR and a trailing "-pre" and "-post". The "pre" file is the one which contents should go into the Pre-request Script tab of the postman request and the "test" file contents should go into the Tests tab of the postman request.
 
-Remember that in order to function properly the Body tab in the postman test should be on 
+Remember that in order to function properly the Body tab in the postman test should be on "raw text" mode and contain only this:
+
+    {{request_body}}
+With this consideration and the files in their respective tabs for the postman request the test is now ready to be used
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4NTM1ODEzOSw4MzEzNTY2ODJdfQ==
+eyJoaXN0b3J5IjpbLTEyMDU2ODg5ODIsODMxMzU2NjgyXX0=
 -->
