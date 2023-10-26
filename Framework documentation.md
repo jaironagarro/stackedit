@@ -108,7 +108,11 @@ The tests to be used for an specific postman test generation should be in the ".
 ## Usage
 Under the "./clrs" folder within resources should be one CLR file for each postman test to be created with the name of the postman test to be generated, this could be for instance the name of the source that is being tested.
 
-Next, the user should select transformations and tests that are going into their respective folders accordingly to what is expected to be tested with the pos
+Next, the user should select transformations and tests that are going into their respective folders accordingly to what is expected to be tested with the postman test.
+
+Finally the user should run the MainTest file to be prompted about any variable that is needed for the program to finish.
+
+Once the program has finished 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4ODMwODQyNiw4MzEzNTY2ODJdfQ==
+eyJoaXN0b3J5IjpbLTc5MTk3NDk2NSw4MzEzNTY2ODJdfQ==
 -->
