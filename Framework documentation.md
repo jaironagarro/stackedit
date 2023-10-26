@@ -28,7 +28,7 @@ This script should be used to put tests that are always in every test and should
 
 This file name is **baseTest.js** and is found in the resources folder at root level.
 
-## Variables
+### Variables
 Variables, as its name suggest, are a way to standardize a [Transformation](#transformation) or a [Test](#test) te be used in many scenarios. Both [Transformations](#transformation) and [Tests](#test) have an space in its format to declare its variables and each one should be in the next format:
 
     variableName = "Variable description to be  shown whenever the user is setting it"
@@ -37,7 +37,7 @@ Each variable should be used in both [Transformations](#transformation) and [Tes
     pm.environment.set('someVariable', $variableName);
 
 
-## Transformation
+### Transformation
 The transformations are pieces of code that work with the body in some way to transform the request body, in this case the CLR that is sent but not necessarily for other kinds of tests. This transformations could be used to swap information, to generate values, to find specific values that need to be  put into an environment variable to use in the tests, etc.
 
 Each transformation needs to have a format and to be in its own file named to be recognize easily for its purpose, the transformations format is this:
@@ -78,7 +78,8 @@ Example with variables:
 
 The transformations to be used for an specific test generation should be in the "./transformations" folder under resources. Any other kind of transformation could be saved in another folder to be used when needed but only those in the transformations folder will be considered.
 
-## Test
+### Test
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5MTk0MjE0OCw4MzEzNTY2ODJdfQ==
+eyJoaXN0b3J5IjpbMjQxMzc5NzMxLDgzMTM1NjY4Ml19
 -->
