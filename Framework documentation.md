@@ -3,13 +3,13 @@
 ## Table of contents
 
 1. [Test abstractions](#test-abstractions)
-    1. Base Script
-    2. Base Test
-    3. Variables
-    4. Transformation
-    5. Test
-2. Usage
-3. Troubleshooting
+    1. [Base Script](#test-abstractions)
+    2. [Base Test](#base-test)
+    3. [Variables](#variables)
+    4. [Transformation](#trans)
+    5. [Test](#test-abstractions)
+2. [Usage](#test-abstractions)
+3. [Troubleshooting](#test-abstractions)
  
 ## Test abstractions
 ### Base Script
@@ -117,7 +117,9 @@ Once the program has finished, in the "./classes/out" folder under target in the
 Remember that in order to function properly the Body tab in the postman test should be on "raw text" mode and contain only this:
 
     {{request_body}}
-With this consideration and the files in their respective tabs for the postman request the test is now ready to be used
+With this consideration and the files in their respective tabs for the postman request the test is now ready to be used.
+
+## Troubleshooting
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDU2ODg5ODIsODMxMzU2NjgyXX0=
+eyJoaXN0b3J5IjpbLTc2ODUxMDU5Nyw4MzEzNTY2ODJdfQ==
 -->
