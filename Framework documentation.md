@@ -79,7 +79,7 @@ Example with variables:
 The transformations to be used for an specific test generation should be in the "./transformations" folder under resources. Any other kind of transformation could be saved in another folder to be used when needed but only those in the transformations folder will be considered.
 
 ### Test
-
+Tests work on two stages, the first script space is used to set up the different environment variables to be used in the second script space to be tested
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQxMzc5NzMxLDgzMTM1NjY4Ml19
+eyJoaXN0b3J5IjpbLTY3MDM5MDgyMyw4MzEzNTY2ODJdfQ==
 -->
