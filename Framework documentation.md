@@ -79,7 +79,9 @@ Example with variables:
 The transformations to be used for an specific test generation should be in the "./transformations" folder under resources. Any other kind of transformation could be saved in another folder to be used when needed but only those in the transformations folder will be considered.
 
 ### Test
-Tests work on two stages, the first script space is used to set up the different environment variables to be used in the second script space to be used as a part of the test. Test should always set up any variable that they will use because there is no w
+Tests work on two stages, the first script space is used to set up the different environment variables to be used in the second script space to be used as a part of the test. Tests should always set up any variable that they will use because there is no way to know how the user could mix and match the tests that are going to be part of a boomi test after all.
+
+Each test needs to have a format and to be in its own file named to be recognize easily for its purpose, the transformations format is this:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0NDE5MzQ5Niw4MzEzNTY2ODJdfQ==
+eyJoaXN0b3J5IjpbLTEyNTA4NzYzNDcsODMxMzU2NjgyXX0=
 -->
